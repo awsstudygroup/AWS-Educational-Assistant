@@ -1,42 +1,64 @@
-# Overview Study-Assistant
-This is a simple demo of Amazon Bedrock and Anthropic Claude 3 Sonnet model with langchain and streamlit. For more detail please reference the following link: <br />
-- <a href="https://aws.amazon.com/bedrock/" target="_blank">https://aws.amazon.com/bedrock/ </a>
-- <a href="https://www.anthropic.com/news/claude-3-family" target="_blank">Claude 3 </a>
-# To view demo and sample data:
-    Access folder demo for demo video
-    Access folder samples for sample videos
+# AWS-Educational-Assistant
 
-# To Setup
-Setup <a href='https://docs.python-guide.org/starting/install3/linux/' target='_blank'> Python <a><br />
-Setup <a href='https://docs.python-guide.org/starting/install3/linux/' target='_blank'> Python Env<br />
-Setup <a href='https://docs.aws.amazon.com/cli/latest/userguide/getting-started-quickstart.html' target='_blank'> AWS CLI<br />
-> git clone https://github.com/awsstudygroup/AWS-Educational-Assistant <br />
-> cd AWS-Educational-Assistant <br />
-> pip3 install -r requirements.txt <br />
-> streamlit run Home.py --server.port 8080 <br />
+This is a simple demo of Amazon Bedrock and Anthropic Claude 3 Sonnet model with LangChain and Streamlit. For more details, please refer to the following links:
+- [Amazon Bedrock](https://aws.amazon.com/bedrock/)
+- [Claude 3](https://www.anthropic.com/news/claude-3-family)
 
-# Architecture
+## To View Demo and Sample Data
+
+- Access the `demo` folder for demo videos.
+- Access the `samples` folder for sample videos.
+
+## Setup Guide
+
+### Step 1: Install Python
+
+Ensure Python is installed on your system. Follow the instructions for your operating system:
+- [Install Python on Linux](https://docs.python-guide.org/starting/install3/linux/)
+
+### Step 2: Setup Python Environment
+
+Create a virtual environment to manage your dependencies:
+- [Setup Python Environment](https://docs.python-guide.org/starting/install3/linux/)
+
+### Step 3: Install AWS CLI
+
+Install and configure the AWS Command Line Interface (CLI):
+- [Install AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-quickstart.html)
+
+### Step 4: Clone the Repository
+
+Clone the AWS-Educational-Assistant repository to your local machine:
+```bash
+git clone https://github.com/awsstudygroup/AWS-Educational-Assistant
+```
+
+### Step 5: Navigate to the Project Directory
+
+Change to the project directory:
+```bash
+cd AWS-Educational-Assistant
+```
+
+### Step 6: Install Dependencies
+
+Install the required Python packages:
+```bash
+pip3 install -r requirements.txt
+```
+
+### Step 7: Run the Streamlit Application
+
+Start the Streamlit application:
+```bash
+streamlit run Home.py --server.port 8080
+```
+
+## Architecture
+
 ![Architecture](./Architecture.png)
 
-# Learn more about prompt and Claude 3
-<a href="https://docs.anthropic.com/claude/docs/introduction-to-prompt-design" target="_blank">Introduction to prompt design </a>
-<a href="https://www-cdn.anthropic.com/de8ba9b01c9ab7cbabf5c33b80b7bbc618857627/Model_Card_Claude_3.pdf">Model Card</a>
+## Learn More About Prompt and Claude 3
 
-# Demo
-
-## A Simple Chat 
-[![Chat](http://img.youtube.com/vi/PdX7i0A4a-M/0.jpg)](https://www.youtube.com/watch?v=PdX7i0A4a-M)]
-
-## Questions and Anwsers
-[![Questions and Anwsers](http://img.youtube.com/vi/ciJfAhyRjTI/0.jpg)](https://www.youtube.com/watch?v=ciJfAhyRjTI)]
-
-## Summary a Lecture
-[![Summary](http://img.youtube.com/vi/5JpeWmbHMi0/0.jpg)](https://www.youtube.com/watch?v=5JpeWmbHMi0)]
-
-## Create Multi Choice Questions
-[![Create Multi Choice Questions](http://img.youtube.com/vi/AE9gj19a9t0/0.jpg)](https://www.youtube.com/watch?v=AE9gj19a9t0)]
-
-## Suggest a Better Writing
-[![Suggest Better Writing](http://img.youtube.com/vi/7xBR5rtcp30/0.jpg)](https://www.youtube.com/watch?v=7xBR5rtcp30)]
-
-
+- [Introduction to Prompt Design](https://docs.anthropic.com/claude/docs/introduction-to-prompt-design)
+- [Model Card](https://www-cdn.anthropic.com/de8ba9b01c9ab7cbabf5c33b80b7bbc618857627/Model_Card_Claude_3.pdf)
