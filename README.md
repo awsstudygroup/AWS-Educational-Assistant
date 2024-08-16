@@ -1,42 +1,56 @@
-# Overview Study-Assistant
-This is a simple demo of Amazon Bedrock and Anthropic Claude 3 Sonnet model with langchain and streamlit. For more detail please reference the following link: <br />
-- <a href="https://aws.amazon.com/bedrock/" target="_blank">https://aws.amazon.com/bedrock/ </a>
-- <a href="https://www.anthropic.com/news/claude-3-family" target="_blank">Claude 3 </a>
-# To view demo and sample data:
-    Access folder demo for demo video
-    Access folder samples for sample videos
+### AWS Educational Assistant: Product Overview
 
-# To Setup
-Setup <a href='https://docs.python-guide.org/starting/install3/linux/' target='_blank'> Python <a><br />
-Setup <a href='https://docs.python-guide.org/starting/install3/linux/' target='_blank'> Python Env<br />
-Setup <a href='https://docs.aws.amazon.com/cli/latest/userguide/getting-started-quickstart.html' target='_blank'> AWS CLI<br />
-> git clone https://github.com/nguyendinhthi0705/Study-Assistant.git <br />
-> cd Study-Assistant <br />
-> pip3 install -r requirements.txt <br />
-> streamlit run Home.py --server.port 8080 <br />
+**AWS Educational Assistant** is a simple demonstration that integrates Amazon Bedrock with the Anthropic Claude 3 Sonnet model, leveraging the capabilities of Langchain and Streamlit. This demo showcases how these tools can be combined to create an interactive educational assistant, providing a foundational example for building similar applications.
 
-# Architecture
-![Architecture](./Architecture.png)
+**Key Features:**
+- **Amazon Bedrock Integration:** Utilize Amazon Bedrock's powerful foundation models.
+- **Anthropic Claude 3 Sonnet:** Leverage the capabilities of Claude 3 for advanced natural language understanding and generation.
+- **Langchain Integration:** Use Langchain for building complex language model workflows.
+- **Streamlit Interface:** A simple and interactive web interface for easy use and deployment.
 
-# Learn more about prompt and Claude 3
-<a href="https://docs.anthropic.com/claude/docs/introduction-to-prompt-design" target="_blank">Introduction to prompt design </a>
-<a href="https://www-cdn.anthropic.com/de8ba9b01c9ab7cbabf5c33b80b7bbc618857627/Model_Card_Claude_3.pdf">Model Card</a>
+For more details, please refer to:
+- [Amazon Bedrock](https://aws.amazon.com/bedrock/)
+- [Anthropic Claude 3](https://www.anthropic.com/news/claude-3-family)
 
-# Demo
+### Demo and Sample Data
 
-## A Simple Chat 
-[![Chat](http://img.youtube.com/vi/PdX7i0A4a-M/0.jpg)](https://www.youtube.com/watch?v=PdX7i0A4a-M)]
+To view the demo and explore sample data:
+- Access the `demo` folder for a demonstration video.
+- Access the `samples` folder for sample videos.
 
-## Questions and Anwsers
-[![Questions and Anwsers](http://img.youtube.com/vi/ciJfAhyRjTI/0.jpg)](https://www.youtube.com/watch?v=ciJfAhyRjTI)]
+### Step-by-Step Setup Guide
 
-## Summary a Lecture
-[![Summary](http://img.youtube.com/vi/5JpeWmbHMi0/0.jpg)](https://www.youtube.com/watch?v=5JpeWmbHMi0)]
+**1. Install Python:**
+   - Follow the installation guide for [Python](https://docs.python-guide.org/starting/install3/linux/).
 
-## Create Multi Choice Questions
-[![Create Multi Choice Questions](http://img.youtube.com/vi/AE9gj19a9t0/0.jpg)](https://www.youtube.com/watch?v=AE9gj19a9t0)]
+**2. Set Up Python Environment:**
+   - Follow the instructions to set up a [Python Environment](https://docs.python-guide.org/starting/install3/linux/).
 
-## Suggest a Better Writing
-[![Suggest Better Writing](http://img.youtube.com/vi/7xBR5rtcp30/0.jpg)](https://www.youtube.com/watch?v=7xBR5rtcp30)]
+**3. Install AWS CLI:**
+   - Set up AWS CLI by following the [AWS CLI Quickstart Guide](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-quickstart.html).
 
+**4. Clone the Repository:**
+   ```bash
+   git clone https://github.com/awsstudygroup/AWS-Educational-Assistant
+   ```
+   
+**5. Navigate to the Project Directory:**
+   ```bash
+   cd AWS-Educational-Assistant
+   ```
 
+**6. Install Required Python Packages:**
+   ```bash
+   pip3 install -r requirements.txt
+   ```
+
+**7. Run the Streamlit Application:**
+   ```bash
+   streamlit run Home.py --server.port 8080
+   ```
+
+### Additional Resources
+
+To learn more about prompt design and the Claude 3 model:
+- [Introduction to Prompt Design](https://docs.anthropic.com/claude/docs/introduction-to-prompt-design)
+- [Claude 3 Model Card](https://www-cdn.anthropic.com/de8ba9b01c9ab7cbabf5c33b80b7bbc618857627/Model_Card_Claude_3.pdf)
